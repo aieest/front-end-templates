@@ -1,0 +1,29 @@
+:root {
+    --gradient-one: #03045E;
+    --gardient-two: #023E8A;
+    --gradient-three: #0077B6;
+    --gardient-four: #0096C7;
+    --gradient-five: #00B4D8;
+    --gardient-six: #48CAE4;
+    --gradient-seven: #90E0EF;
+    --gardient-eight: #ADE8F4;
+    --gardient-nine: #CAF0F8;
+    --accent-one: #FB8500;
+    --accent-two: #FFB703;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+body {
+    overflow: hidden;
+}
+
+main {
+    background: linear-gradient(var(--gradient-one), var(--gardient-two));
+    width: 100vw;
+    height: 100vh;
+}
