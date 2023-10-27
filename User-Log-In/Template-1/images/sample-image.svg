@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="140.0759mm"
+   height="140.2822mm"
+   viewBox="0 0 140.0759 140.2822"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(57.144369,-291.29189)"><g
+       id="g4"
+       transform="translate(-22.280115,212.89888)"><rect
+         style="opacity:1;fill:#000000;stroke:none;stroke-width:6.04002;stroke-linecap:round;stroke-linejoin:round"
+         id="rect2"
+         width="140.0759"
+         height="140.2822"
+         x="-34.864254"
+         y="78.39299" /><text
+         xml:space="preserve"
+         style="font-size:24.5883px;font-family:EMATANE;-inkscape-font-specification:EMATANE;opacity:1;fill:#ececec;stroke:none;stroke-width:14.2254;stroke-linecap:round;stroke-linejoin:round"
+         x="44.038319"
+         y="115.3651"
+         id="text4"
+         transform="scale(0.8094066,1.235473)"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="font-size:24.5883px;text-align:center;text-anchor:middle;fill:#ececec;stroke-width:14.2254"
+           x="44.038322"
+           y="115.3651">sample Image</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:24.5883px;text-align:center;text-anchor:middle;fill:#ececec;stroke-width:14.2254"
+           x="44.038319"
+           y="146.10048"
+           id="tspan4">HEre</tspan></text></g></g></svg>
