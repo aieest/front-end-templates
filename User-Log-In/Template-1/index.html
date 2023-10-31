@@ -12,32 +12,32 @@
 </head>
 <body>
 
-    <main>
+    <main class="d-flex justify-content-center align-items-center">
 
-        <section class="log-in d-flex flex-row">
+        <section class="log-in">
 
-            <img src="your-image-source.jpg" class="log-in-img">
+            <img src="images/sample-image.png" class="log-in-img">
 
-            <form action="#" class="log-in-form d-flex flex-column">
+            <form action="#" class="log-in-form d-flex flex-column align-items-center justify-content-around">
 
-                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="text" id="username" name="username" placeholder="Username" required class="log-in-input">
 
-                <input type="password" id="password" name="password" placeholder="Password" required>
+                <input type="password" id="password" name="password" placeholder="Password" required class="log-in-input">
 
-                <div class="log-in-btns">
+                <div class="log-in-btns-container">
 
-                    <button type="submit" class="log-in-btn">Sign In</button>
-                    <a class="log-in-btn" href="#">Sign Up</a>
+                    <button type="submit" class="log-in-btn w-auto">Sign In</button>
+                    <span class="spacer w-auto"></span>
+                    <a class="sign-up-btn w-auto" href="#">Sign Up</a>
 
                 </div>
 
 
-                <a href="#">Forgot Password?</a>
+                <a href="#" class="forgot-password">Forgot Password?</a>
             </form>
 
         </section>
     </main>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

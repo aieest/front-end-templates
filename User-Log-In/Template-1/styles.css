@@ -10,12 +10,19 @@
     --gardient-nine: #CAF0F8;
     --accent-one: #FB8500;
     --accent-two: #FFB703;
+    --accent-three: #FFDa06;
+    --accent-four: #fffc39;
+    /* --main-bg-color: #000504;
+    --text-color: #DCFEFA;
+    --primary-color: #036D5F;
+    --secondary-color: #012D27;
+    --accent-color: #06F4D4; */
 }
 
 * { 
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    /* border: 1px solid white; */
 }
 
 body {
@@ -23,7 +30,85 @@ body {
 }
 
 main {
-    background: linear-gradient(var(--gradient-one), var(--gardient-two));
+    background: linear-gradient(45deg, var(--gradient-three), var(--gardient-two) 70%);
     width: 100vw;
     height: 100vh;
+}
+
+section.log-in {
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* Log-In Image */
+img.log-in-img {
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    height: auto;
+}
+
+form.log-in-form {
+    border-radius: 0 10px 10px 0;
+    padding: 50px 20px 50px 20px;
+    background: linear-gradient(45deg, var(--gardient-two), var(--gardient-four));
+}
+
+.log-in-input, .log-in-input:focus {
+    border: none;
+    border-bottom: 1px solid #CAF0F8;
+    padding-left: 3px;
+    background-color: inherit;
+    height: 40px;
+    width: 90%;
+    color: #CAF0F8;
+}
+
+input[type=text].log-in-input:focus {
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.typing {
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.log-in-input::placeholder {
+    color: #CAF0F8;
+}
+
+div.log-in-btns-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+}
+
+.log-in-btn {
+    border: 1.5px solid var(--accent-two);
+    border-radius: 10px;
+    padding: 3px 0 5px 0;
+    background:inherit;
+    color: var(--accent-two);
+}
+
+
+.sign-up-btn {
+    border: 1px solid var(--gardient-nine);
+    border-radius: 10px;
+    padding: 3px 0 5px 0;
+    background: inherit;
+    text-align: center;
+    text-decoration: none;
+    color: var(--gardient-nine);
+}
+.forgot-password {
+    text-decoration: none;
+    color: var(--gardient-nine);
 }
