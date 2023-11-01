@@ -15,7 +15,23 @@
     <main class="d-flex justify-content-center align-items-center">
 
         <section class="new-post">
-            
+            <h1 class="new-post-header">New Post</h1>
+
+            <form action="" class="new-post-form d-flex flex-column">
+                <input type="text" name="post-title" placeholder="Title">
+                <textarea name="post-content" placeholder="Post Content"></textarea>
+                <input type="file" name="file-upload" placeholder="Upload File">
+
+                <div class="post-btn-container">
+
+                    <input type="submit" value="Submit" class="submit-new-post">
+                    <span class="spacer w-auto"></span>
+                    <a href="" class="cancel-new-post">Cancel</a>
+
+                </div>
+            </form>
+
+
         </section>
 
     </main>
