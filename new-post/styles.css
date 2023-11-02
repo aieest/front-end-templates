@@ -22,5 +22,77 @@
 * { 
     margin: 0;
     padding: 0;
-    /* border: 1px solid white; */
+    /* border: 1px solid black; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+main {
+    background: linear-gradient(45deg, var(--gradient-three), var(--gardient-two) 70%);
+    width: 100vw;
+    height: 100vh;
+}
+
+section.new-post {
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    background: linear-gradient(45deg, var(--gradient-three), var(--gardient-four));
+    height: 65vh;
+    width: auto;
+    display: grid;
+    grid-template-rows: 15% 65% 20%;
+}
+
+h1.new-post-header {
+    text-align: center;
+    color: var(--gardient-nine);
+}
+
+form.new-post-form {
+    border-top: 1px solid var(--gardient-nine);
+    padding-top: 10px;
+    height: 100%;
+}
+
+form.new-post-form * {
+    border: none;
+    border-radius: 5px;
+}
+
+input.new-post-title {
+    height: 15%;
+    padding-left: 5px;
+    color: var(--gradient-one);
+}
+
+textarea.new-post-content {
+    height: 55%;
+    padding-left: 5px;
+    color: var(--gradient-one);
+}
+
+input.new-post-upload {
+    height: auto;
+    color: var(--gardient-nine);
+}
+
+button.submit-new-post {
+    border: 1px solid var(--accent-four);
+    border-radius: 5px;
+    width: 100%;
+    height: 50%;
+    background: inherit;
+    color: var(--accent-four);
+}
+
+a.cancel-new-post {
+    margin: 0 auto 0 auto;
+    color: var(--gardient-nine);
+    text-decoration: none;
+    font-size: 13px;
 }
